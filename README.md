@@ -83,34 +83,90 @@ Repository được tổ chức thành các labs độc lập, mỗi lab tập t
 - **Tech Stack**: Kafka + Spark + Iceberg + dbt + Great Expectations + Airflow
 - **📁 Thư mục**: `Data_Lakehouse_lab/`
 
-## 🗺️ Learning Path
+## 🗺️ Learning Paths
 
-### Path 1: Real-time Data Processing
+### Path 1: Real-time Data Processing (Streaming Focus)
+**Mục tiêu**: Xây dựng real-time data pipelines
 ```
-Kafka Lab → Spark Lab (Streaming) → Airflow Lab → Data Lakehouse Lab
+1. Kafka Lab (Real-time ingestion)
+2. Spark Lab (Streaming processing)
+3. PyIceberg Lab (Stream storage)
+4. Airflow Lab (Orchestration)
+5. Data Lakehouse Lab (Integration)
 ```
+**Thời gian**: ~50-60 hours | **Độ khó**: Intermediate → Advanced
 
-### Path 2: Data Transformation & Quality
+### Path 2: Data Transformation & Quality (ETL Focus)
+**Mục tiêu**: Xây dựng data warehouse và quality pipelines
 ```
-Spark Lab → dbt Lab → Great Expectations Lab → Airflow Lab → Data Lakehouse Lab
+1. Spark Lab (Batch processing)
+2. PyIceberg Lab (Data lake storage)
+3. dbt Lab (Transformation)
+4. Great Expectations Lab (Data quality)
+5. Airflow Lab (Orchestration)
+6. Data Lakehouse Lab (Integration)
 ```
+**Thời gian**: ~60-70 hours | **Độ khó**: Intermediate → Advanced
 
-### Path 3: Data Storage & Lakehouse
+### Path 3: Data Storage & Lakehouse (Storage Focus)
+**Mục tiêu**: Hiểu về data storage và lakehouse architecture
 ```
-PyIceberg Lab → Spark Lab → dbt Lab → Data Lakehouse Lab
+1. PyIceberg Lab (Lakehouse format)
+2. Spark Lab (Processing trên Iceberg)
+3. dbt Lab (Transformations)
+4. Great Expectations Lab (Quality)
+5. Airflow Lab (Orchestration)
+6. NoSQL Lab (Multi-model databases)
+7. Data Lakehouse Lab (Complete architecture)
 ```
+**Thời gian**: ~60-70 hours | **Độ khó**: Intermediate → Advanced
 
-### Path 4: Complete Data Engineer (Recommended)
+### Path 4: Complete Data Engineer (Recommended - Full Stack)
+**Mục tiêu**: Trở thành Data Engineer đầy đủ kỹ năng
 ```
 1. Kafka Lab (Ingestion)
-2. Spark Lab (Processing)
+2. Spark Lab (Processing - Batch & Streaming)
 3. PyIceberg Lab (Storage)
 4. dbt Lab (Transformation)
 5. Great Expectations Lab (Quality)
 6. Airflow Lab (Orchestration)
-7. NoSQL Lab (Multi-model)
-8. Data Lakehouse Lab (Integration)
+7. NoSQL Lab (Multi-model databases)
+8. Data Lakehouse Lab (End-to-end integration)
 ```
+**Thời gian**: ~80-100 hours | **Độ khó**: Beginner → Advanced
+
+### Path 5: Beginner-Friendly (Step by Step)
+**Mục tiêu**: Học từ cơ bản, không áp đảo
+```
+Phase 1 - Fundamentals:
+1. Kafka Lab (Hiểu về streaming)
+2. Spark Lab (Hiểu về processing)
+
+Phase 2 - Storage & Transformation:
+3. PyIceberg Lab (Data storage)
+4. dbt Lab (Data transformation)
+
+Phase 3 - Quality & Orchestration:
+5. Great Expectations Lab (Data quality)
+6. Airflow Lab (Workflow management)
+
+Phase 4 - Advanced Topics:
+7. NoSQL Lab (Multi-model databases)
+8. Data Lakehouse Lab (Complete integration)
+```
+**Thời gian**: ~90-110 hours | **Độ khó**: Beginner → Advanced
+
+### Path 6: Advanced Integration (For Experienced)
+**Mục tiêu**: Tập trung vào integration và production-ready pipelines
+```
+1. Kafka Lab (Advanced streaming patterns)
+2. Spark Lab (Advanced processing)
+3. PyIceberg Lab (Advanced lakehouse)
+4. dbt Lab + Great Expectations Lab (Transform & Quality)
+5. Airflow Lab (Advanced orchestration)
+6. Data Lakehouse Lab (Production-ready integration)
+```
+**Thời gian**: ~60-75 hours | **Độ khó**: Advanced
 
 ## 🚀 Quick Start
 
